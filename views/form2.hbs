@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Page</title>
+    <link rel="stylesheet" href="/css/form2.css">
+</head>
+<body>
+   
+    <main>
+        
+        <div class="container">
+            
+                <h2>Assistant Details</h2>
+                {{#info}}
+                <div class="content">
+                    
+                    <div class="input-box">
+                        <label for="user">ID</label>
+                        <input type="text" placeholder={{id}} name="name" disabled >
+                    </div>
+                    <div class="input-box">
+                        <label for="user">Name</label>
+                        <input type="text" placeholder={{name}} name="name" disabled>
+                    </div>
+                    <div class="input-box">
+                        <label for="mobile">Mobile</label>
+                        <input type="text" placeholder={{mobile}} name="mobile" disabled>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">Email</label>
+                        <input type="text" placeholder={{email}} name="email" disabled>
+                    </div>
+                    <div class="input-box">
+                        <label for="salary">Salary</label>
+                        <input type="text" placeholder={{salary}} name="salary" disabled>
+                    </div>
+                    <div class="input-box">
+                        <label for="city">City</label>
+                        <input type="text" placeholder={{city}} name="city" disabled>
+                    </div>
+                    <div class="input-box">
+                        <label for="country">Country</label>
+                        <input type="text" placeholder={{country}} name="country" disabled>
+                    </div>
+                    <div class="input-box">
+                        <label for="department">Department</label>
+                        <input type="text" placeholder={{department}} name="department" disabled>
+                    </div>
+                   
+                    <div class="button-container">
+                        <a href="/"><button >Home</button></a>
+                    </div>
+                </div>
+                {{/info}}
+            </form>
+        </div>
+    </main>
+</body>
+</html>
